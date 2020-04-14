@@ -1,4 +1,16 @@
+.nav {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
 .jumbotron {
-    background-image: url("../assets/banner.jpg");
-    background-size: contain;
+    height: 400px;
+    background-image: url("assets/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hello {
+    background-color: black;
+    color: white;
 }
