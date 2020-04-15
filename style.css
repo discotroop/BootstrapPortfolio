@@ -1,16 +1,58 @@
 .nav {
     background-color: black;
     color: white;
-    height: 60px;
+    min-height: 5vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    width: 50vw;
+}
+.nav-links li {
+    margin: 1vh;
+    padding: 1vh;
+}
+.nav-links li:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
 }
 .jumbotron {
-    height: 400px;
+    height: 100vh;
     background-image: url("assets/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.container {
+    min-height: 10vh;
 }
 
 .hello {
     background-color: black;
     color: white;
+    margin-top: 10vh;
 }
