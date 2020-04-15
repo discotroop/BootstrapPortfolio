@@ -53,10 +53,20 @@ a:hover {
     min-height: 20vh;
 }
 
-.twenty {
+.port-item {
     background-color: black;
     color: white;
     text-align: center;
+    border-color: white;
+    border-width: 1vh;
+    border-style: solid;
+    padding: 1vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
 }
 .flex-row {
     display: flex;
@@ -68,12 +78,14 @@ a:hover {
     background-image: url("assets/Screenshot_2048.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 30vh;
+    width: 30vh;
     margin: 2vh;
     border-style: solid;
     border-width: 1px;
     border-color: white;
     border-radius: 50%;
+    text-align: center;
 }
 .img-container:hover {
     border-radius: 15px;
