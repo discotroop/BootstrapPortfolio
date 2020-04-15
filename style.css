@@ -53,14 +53,24 @@ a:hover {
     min-height: 20vh;
 }
 
+.container {
+    width: 100%;
+}
+
+.portfolio {
+    background-image: url("assets/structure.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .port-item {
     background-color: black;
     color: white;
     text-align: center;
     border-color: white;
-    border-width: 1vh;
+    border-width: 1px;
     border-style: solid;
-    padding: 1vh;
+    padding: 100px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -72,6 +82,10 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.col-sm-3 {
+    margin: 10px;
 }
 
 .img-container {
