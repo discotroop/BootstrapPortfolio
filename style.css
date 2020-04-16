@@ -44,12 +44,16 @@ a:hover {
     background-image: url("assets/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: 2px;
+    border-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-color: black;
+    margin-bottom: 0;
+}
+.lead {
+    margin-bottom: 0;
 }
 
-.portfolio, .about, .contact {
+.project, .about, .contact {
     min-height: 20vh;
 }
 
@@ -57,10 +61,18 @@ a:hover {
     width: 100%;
 }
 
-.portfolio {
+.project {
     background-image: url("assets/structure.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.gap {
+    height: 12vh;
+}
+
+.port-title {
+    background-color: black;
+    color:white;
 }
 
 .port-item {
@@ -70,7 +82,7 @@ a:hover {
     border-color: white;
     border-width: 1px;
     border-style: solid;
-    padding: 100px;
+    padding: 10vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -84,8 +96,8 @@ a:hover {
     justify-content: space-around;
 }
 
-.col-sm-3 {
-    margin: 10px;
+.padded {
+    margin: 15px;
 }
 
 .img-container {
