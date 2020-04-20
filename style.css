@@ -43,6 +43,15 @@ a:hover {
 p {
     font-size: 16px;
 }
+img {
+    width: 100%;
+}
+.logos {
+    min-height: 25px;
+    min-width: 30px;
+    max-height: 30px;
+    max-width: 100px;
+}
 .project, .about, .contact {
     min-height: 20vh;
     border-bottom: 10px;
@@ -73,6 +82,12 @@ p {
     color: white;
     margin-top: 10vh;
 }
+.hello-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 400px;
+}
 /* Projects backgrodun */
 .project {
     background-image: url("assets/structure.jpg");
@@ -92,17 +107,6 @@ p {
     min-width: 300px;
     max-width: 450px;
 }
-/* .flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.flex-row a {
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    padding: 20px;
-} */
 
 .about {
     background-image: url("assets/pier.jpg");
@@ -118,4 +122,11 @@ p {
     background-image: url("assets/flight.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    font-size: 8px;
 }
