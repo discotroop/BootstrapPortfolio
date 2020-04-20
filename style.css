@@ -1,3 +1,4 @@
+/* Navigation */
 .nav {
     background-color: black;
     color: white;
@@ -10,7 +11,6 @@
     justify-content: center;
     z-index: 1000;
 }
-
 .nav-links {
     display: flex;
     flex-direction: row;
@@ -29,6 +29,7 @@
     border-width: 1px;
     border-color: white;
 }
+/* General */
 a {
     text-decoration: none;
     color: white;
@@ -39,10 +40,21 @@ a:hover {
     color: white;
     font-size: 3vh;
 }
-
 p {
     font-size: 16px;
 }
+.project, .about, .contact {
+    min-height: 20vh;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin-bottom: 0;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+}
+/* JumboTron */
 .jumbotron {
     height: 100vh;
     background-image: url("assets/banner.jpg");
@@ -56,69 +68,31 @@ p {
 .lead {
     margin-bottom: 0;
 }
-
-.project, .about, .contact {
-    min-height: 20vh;
-    border-bottom: 10px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
-    margin-bottom: 0;
+.hello {
+    background-color: black;
+    color: white;
+    margin-top: 10vh;
 }
-
-.container {
-    width: 100%;
-}
-
+/* Projects backgrodun */
 .project {
     background-image: url("assets/structure.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* Section rules  */
 .gap {
     height: 12vh;
 }
-
-
 .section-title {
     background-color: black;
     color:white;
 }
-
-.port-item {
-    height: 45vh;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    padding: 5vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+.padded {
+    margin: 15px;
+    min-width: 300px;
+    max-width: 450px;
 }
-.square {
-    margin-left: 0px;
-    margin-right: 0px;
-    height: 20vh;
-    border-color: white;
-    border-style: solid;
-    border-width: 1px;
-    overflow: hidden;
-}
-img {
-    width: 100%;
-
-}
-.react-screen {
-    background-image: url("assets/Screenshot_2048.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.flex-row {
+/* .flex-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -128,24 +102,20 @@ img {
     border-color: white;
     border-width: 1px;
     padding: 20px;
-}
-
-.padded {
-    margin: 15px;
-    min-width: 300px;
-    max-width: 450px;
-}
+} */
 
 .about {
     background-image: url("assets/pier.jpg");
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
+.about-text {
+    text-shadow: 1px 1px black;
+}
 
-.hello {
-    background-color: black;
-    color: white;
-    margin-top: 10vh;
+.contact {
+    background-image: url("assets/flight.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
