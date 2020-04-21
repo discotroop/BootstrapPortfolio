@@ -55,12 +55,11 @@ img {
 }
 
 .project, .about, .contact {
-    min-height: 20vh;
+    min-height: 100vh;
     border-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-color: black;
     margin-bottom: 0;
-    height: 100vh;
 }
 .container {
     width: 100%;
@@ -116,8 +115,10 @@ img {
     background-repeat: no-repeat;
     color: white;
 }
-.about-text {
+.text {
+    color: white;
     text-shadow: 1px 1px black;
+    height: 230px; 
 }
 
 .contact {
