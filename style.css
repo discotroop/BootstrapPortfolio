@@ -90,6 +90,11 @@ img {
     justify-content: flex-start;
     min-width: 400px;
 }
+.contact-logos {
+    background-color: black;
+    padding: 10px;
+    justify-content: space-evenly;
+}
 #mail {
     background-color: white;
     padding: 8px;
