@@ -1,3 +1,6 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
 /* Navigation */
 .nav {
     background-color: black;
@@ -102,11 +105,14 @@ img {
 }
 /* Projects backgrodun */
 .project {
-    background-image: url("assets/structure.jpg");
+    background-image: url("assets/birds.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* Section rules  */
+.project .row .text {
+    background-color:rgba(0,0,0, 0.2);
+}
+ /* Section rules  */
 .gap {
     height: 12vh;
 }
