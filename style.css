@@ -80,7 +80,7 @@ img {
   font-family: Georgia, times new roman, Times, serif;
 }
 .hello {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   color: white;
   margin-top: 10vh;
   min-height: 190px;
