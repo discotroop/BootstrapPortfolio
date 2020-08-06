@@ -1,3 +1,35 @@
+/* colors: */
+.black {
+  color: rgb(0, 0, 0);
+}
+.dark-blue {
+  color: rgb(20, 33, 61);
+}
+.orange {
+  color: rgb(252, 163, 17);
+}
+.light-gray {
+  color: rgb(229, 229, 229);
+}
+.white {
+  color: rgb(255, 255, 255);
+}
+.b-black {
+  color: rgb(0, 0, 0);
+}
+.b-dark-blue {
+  color: rgb(20, 33, 61);
+}
+.b-orange {
+  color: rgb(252, 163, 17);
+}
+.b-light-gray {
+  color: rgb(229, 229, 229);
+}
+.b-white {
+  color: rgb(255, 255, 255);
+}
+
 body {
   font-family: Helvetica, sans-serif;
   background-image: url("assets/banner.jpg");
@@ -69,6 +101,7 @@ img {
   border-bottom-color: black;
   margin-bottom: 0;
 }
+
 .container {
   width: 100%;
 }
@@ -105,14 +138,14 @@ img {
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 .headshot:hover {
-  background-color: rgb(200, 50, 100);
+  background-color: rgb(20, 33, 61);
   /* hello */
 }
 
 .arrow {
   width: 4vh;
   height: 4vh;
-  border: solid black;
+  border: solid rgb(252, 163, 17);
   border-width: 0 10px 10px 0;
   display: inline-block;
   padding: 3px;

@@ -11,3 +11,5 @@
 // rgb(252,163,17)- light orange
 // rgb(229, 229, 229) - light grey
 // rgb(255, 255, 255) - white
+
+// pink rgb(200, 50, 100);
