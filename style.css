@@ -72,29 +72,41 @@ img {
 .container {
   width: 100%;
 }
-/* JumboTron */
-.jumbotron {
-  height: 100vh;
-  border-bottom: 10px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  background-color: none !important;
-  margin-bottom: 0;
-}
+/* Top */
 .lead {
   margin-bottom: 0;
+  padding-top: 20vh;
+  height: 100vh;
+  font-family: Georgia, times new roman, Times, serif;
 }
 .hello {
   background-color: black;
   color: white;
   margin-top: 10vh;
   min-height: 190px;
+  text-align: center;
 }
+#intro {
+  color: rgba(100, 100, 100);
+}
+.headshot {
+  height: 10vh;
+  width: 10vh;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 50%;
+  padding: 2vw;
+  text-align: center;
+  margin: auto;
+}
+
 .hello-logo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   min-width: 400px;
+  text-align: center;
 }
 .contact-logos {
   background-color: black;
@@ -106,6 +118,7 @@ img {
   padding: 8px;
   border-radius: 50%;
 }
+
 /* Projects backgrodun */
 .project {
   color: black;
