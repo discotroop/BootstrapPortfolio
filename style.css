@@ -19,22 +19,22 @@
 }
 /* background colors */
 .b-near-black {
-  color: rgb(15, 15, 15);
+  background-color: rgb(15, 15, 15);
 }
 .b-black {
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 .b-dark-blue {
-  color: rgb(20, 33, 61);
+  background-color: rgb(20, 33, 61);
 }
 .b-orange {
-  color: rgb(252, 163, 17);
+  background-color: rgb(252, 163, 17);
 }
 .b-light-gray {
-  color: rgb(229, 229, 229);
+  background-color: rgb(229, 229, 229);
 }
 .b-white {
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 /* fonts */
@@ -50,6 +50,7 @@ body {
   background-image: url("assets/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border: 10px solid rgb(15, 15, 15);
 }
 /* Navigation */
 .nav {
@@ -74,26 +75,27 @@ body {
   margin: 0;
   width: 50vw;
 }
-.nav-links li {
+.nav-links > li {
   margin: 1vh;
   padding: 1vh;
 }
-.nav-links li:hover {
+.nav-links > li:hover {
   border-style: solid;
   border-width: 1px;
   border-color: white;
 }
-/* General */
-a {
+.nav-links a {
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
-a:hover {
+.nav-links a:hover {
   text-decoration: none;
   color: white;
   font-size: 20px;
 }
+/* End Navigation */
+
 p {
   font-size: 16px;
 }
@@ -108,7 +110,7 @@ img {
   margin-right: 20px;
 }
 
-.project,
+.projects,
 .about,
 .contact {
   min-height: 100vh;
@@ -117,10 +119,16 @@ img {
   border-bottom-color: black;
   margin-bottom: 0;
 }
+.padded {
+  margin: 15px;
+  min-width: 300px;
+  max-width: 450px;
+}
 
 .container {
   width: 100%;
 }
+
 /* Top */
 .lead {
   margin-bottom: 0;
@@ -179,56 +187,25 @@ img {
   font-size: 7vh;
   font-weight: 700;
 }
-
-.hello-logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  min-width: 400px;
-  text-align: center;
-}
-.contact-logos {
-  background-color: black;
-  padding: 10px;
-  justify-content: space-evenly;
-}
-#mail {
-  background-color: white;
-  padding: 8px;
-  border-radius: 50%;
-}
-
-/* Projects backgrodun */
+/* Projects  */
 .project {
-  color: black;
+  border: 3px solid rgb(15, 15, 15);
 }
-.project .row .text {
-  background-color: rgba(0, 0, 0, 0.2);
+.project-title {
+  margin: 0px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.project-text {
+  padding: 10px;
 }
 /* Section rules  */
 .gap {
   height: 12vh;
 }
-.section-title {
-  background-color: black;
-  color: white;
-}
-.padded {
-  margin: 15px;
-  min-width: 300px;
-  max-width: 450px;
-}
 
 .about {
   color: white;
-}
-.text {
-  color: black;
-  font-weight: 700;
-  height: 230px;
-}
-
-.contact {
 }
 
 .footer {
