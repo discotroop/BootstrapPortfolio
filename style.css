@@ -47,9 +47,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("assets/banner.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   border: 10px solid rgb(15, 15, 15);
 }
 /* Navigation */
@@ -75,11 +72,11 @@ body {
   margin: 0;
   width: 50vw;
 }
-.nav-links > li {
+.nav-links li {
   margin: 1vh;
   padding: 1vh;
 }
-.nav-links > li:hover {
+.nav-links li:hover {
   border-style: solid;
   border-width: 1px;
   border-color: white;
@@ -98,16 +95,6 @@ body {
 
 p {
   font-size: 16px;
-}
-img {
-  width: 100%;
-}
-.logos {
-  min-height: 30px;
-  min-width: 30px;
-  max-height: 30px;
-  max-width: 30px;
-  margin-right: 20px;
 }
 
 .projects,
@@ -135,6 +122,9 @@ img {
   padding-top: 20vh;
   height: 100vh;
   border-bottom: 3px solid rgb(20, 33, 61);
+  background-image: url("assets/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hello {
   background-color: rgb(15, 15, 15);
@@ -189,7 +179,6 @@ img {
 }
 /* Projects  */
 .projects-head {
-  background-color: rgb(15, 15, 15);
   text-align: center;
 }
 .project {
