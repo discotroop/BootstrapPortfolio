@@ -1,3 +1,4 @@
+/* custom CSS classes for repeating colors and fonts  */
 /* colors: */
 .near-black {
   color: rgb(15, 15, 15);
@@ -51,11 +52,26 @@
   text-align: center;
 }
 
+/* Border and default font for body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   border: 10px solid rgb(15, 15, 15);
 }
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
 /* Navigation */
+/* Default / Mobile */
 .nav {
   background-color: rgb(15, 15, 15);
   color: white;
@@ -76,7 +92,7 @@ body {
   list-style: none;
   text-decoration: none;
   margin: 0;
-  width: 50vw;
+  width: 100vw;
 }
 .nav-links li {
   margin: 1vh;
@@ -89,18 +105,53 @@ body {
 }
 .nav-links a {
   text-decoration: none;
-  color: white;
-  font-size: 18px;
+  color: rgb(229, 229, 229);
+  font-size: 30px;
 }
 .nav-links a:hover {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+}
+/* Navigation medium  */
+@media (min-width: 768px) {
+  .nav-links a {
+    font-size: 25px;
+  }
+  .nav-links {
+    justify-content: space-around;
+    width: 50vw;
+  }
+}
+/* Navigation Desktop */
+@media (min-width: 992px) {
+  .nav-links a {
+    font-size: 20px;
+  }
 }
 /* End Navigation */
 
+/* Small text size  */
+/* default/mobile */
 p {
-  font-size: 16px;
+  font-size: 18px;
+}
+/* All else  */
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Main header text size  */
+/* default/mobile */
+h1 {
+  font-size: 40px;
+}
+/* All else  */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
 }
 
 .projects,
@@ -216,7 +267,6 @@ p {
 .project-links {
   width: 40%;
   margin-left: 30%;
-  background-color: rgba(200, 200, 200, 0.1);
   text-align: center;
   display: flex;
   flex-direction: row;
