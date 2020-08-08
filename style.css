@@ -51,11 +51,15 @@
 .center {
   text-align: center;
 }
+.blue-shadow {
+  text-shadow: 1px 1px rgb(20, 33, 61);
+}
 
 /* Border and default font for body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   border: 10px solid rgb(15, 15, 15);
+  background-color: rgba(15, 15, 15, 0.75);
 }
 
 /* // Small devices (landscape phones, 576px and up)
@@ -213,6 +217,9 @@ h1 {
   font-weight: 700;
 }
 /* Projects  */
+.projects {
+  max-width: 700px;
+}
 .projects-head {
   text-align: center;
   font-weight: bolder;
@@ -263,6 +270,7 @@ h1 {
   margin: 0px;
   text-align: center;
   padding: 10px 0px 10px 0px;
+  font-weight: bolder;
 }
 .project-text {
   padding: 10px;
@@ -292,7 +300,7 @@ h1 {
 }
 
 .about {
-  color: white;
+  color: rgb(229, 229, 229);
 }
 
 .footer {
