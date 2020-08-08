@@ -216,10 +216,11 @@ h1 {
   font-size: 7vh;
   font-weight: 700;
 }
+
 /* Projects  */
-.projects {
+/* .projects {
   max-width: 700px;
-}
+} */
 .projects-head {
   text-align: center;
   font-weight: bolder;
@@ -275,6 +276,23 @@ h1 {
 .project-text {
   padding: 10px;
   text-align: center;
+}
+.small-arrow {
+  width: 12px;
+  height: 12px;
+  border: solid rgb(252, 163, 17);
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  line-height: 7vh;
+  font-size: 7vh;
+  font-weight: 700;
+}
+.right {
+  transform: rotate(310deg);
+  -webkit-transform: rotate(310deg);
 }
 .project-links {
   width: 40%;
