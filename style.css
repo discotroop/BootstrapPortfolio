@@ -54,6 +54,12 @@
 .blue-shadow {
   text-shadow: 1px 1px rgb(20, 33, 61);
 }
+.mono {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  background-color: rgb(220, 220, 220);
+  color: rgb(20, 33, 61);
+}
 
 /* Border and default font for body */
 body {
