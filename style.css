@@ -67,7 +67,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   border: 10px solid rgb(15, 15, 15);
-  background-color: rgba(15, 15, 15, 0.75);
+  background-color: rgba(15, 15, 15);
 }
 
 /* // Small devices (landscape phones, 576px and up)
@@ -144,7 +144,7 @@ h1 {
   min-height: 100vh;
   border-bottom: 10px;
   border-bottom-style: solid;
-  border-bottom-color: black;
+  border-bottom-color: rgb(15, 15, 15);
   margin-bottom: 0;
 }
 .padded {
@@ -162,7 +162,7 @@ h1 {
   margin-bottom: 0;
   padding-top: 20vh;
   height: 100vh;
-  border-bottom: 3px solid rgb(20, 33, 61);
+  border-bottom: 10px solid rgb(15, 15, 15);
   background-image: url("assets/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -328,12 +328,16 @@ h1 {
 .about {
   color: rgb(229, 229, 229);
 }
+.contact {
+  color: rgb(229, 229, 229);
+}
 
 .footer {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   color: lightgray;
   text-align: center;
   font-size: 8px;
+  padding-top: 50px;
 }
 /* End Small / Mobile */
 
@@ -379,6 +383,9 @@ h3 {
     font-size: 20px;
   }
   .about {
+    background: linear-gradient(to right, rgb(15, 15, 15), rgb(20, 33, 61));
+  }
+  .contact {
     background: linear-gradient(to right, rgb(15, 15, 15), rgb(20, 33, 61));
   }
 }
