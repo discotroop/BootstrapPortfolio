@@ -378,4 +378,7 @@ h3 {
   .nav-links a {
     font-size: 20px;
   }
+  .about {
+    background: linear-gradient(to right, rgb(15, 15, 15), rgb(20, 33, 61));
+  }
 }
