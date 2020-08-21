@@ -56,9 +56,11 @@
 }
 .mono {
   font-family: "Courier New", Courier, monospace;
-  font-size: 17px;
-  background-color: rgb(220, 220, 220);
-  color: rgb(20, 33, 61);
+  font-size: 16px;
+  /* background-color: rgb(220, 220, 220); */
+  /* background-color: rgb(255, 255, 255); */
+  color: rgb(252, 163, 17);
+  font-weight: bold;
 }
 
 /* Border and default font for body */
